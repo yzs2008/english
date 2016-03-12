@@ -1,0 +1,18 @@
+solitary:单独的
+A Java Virtual Machine instance starts running its solitary application by invoking the main() method of some initial class
+
+depiction:描述
+See Figure 5-3 for a graphical depiction of the memory areas the Java Virtual Machine creates for each thread.
+
+primordial:原始的，最根本的
+the Java Virtual Machine contains two kinds of class loaders: a primordial class loader and class loader objects
+
+contiguous:连续的
+The size of the method area need not be fixed. As the Java application runs, 
+the virtual machine can expand and contract the method area to fit the applicationís needs. 
+Also, the memory of the method area need not be contiguous. 
+It could be allocated on a heap--even on the virtual machineís own heap
+
+trample:践踏 伤害
+There is no way two different Java applications could trample on each otherís heap data. 
+Two different threads of the same application, however, could trample on each otherís heap data.
